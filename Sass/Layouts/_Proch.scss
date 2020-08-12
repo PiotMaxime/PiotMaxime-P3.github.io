@@ -1,0 +1,15 @@
+.Conteneur__Proch
+    {
+        display: flex;
+        justify-content: center;
+        & h3
+            {
+            background-color: $color-primary;
+            font-size: 2em;
+            font-family: sans-serif;
+            font-weight: lighter;
+            padding: 1%;
+            border-radius: 10px;
+            color: $color-secondary;
+            }
+    }

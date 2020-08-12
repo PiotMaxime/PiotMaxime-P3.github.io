@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./Sass/main.scss:./Public/CSS/Style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotMaxime/Ohmyfood.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiotMaxime/Ohmyfood.github.io/issues"
+  },
+  "homepage": "https://github.com/PiotMaxime/Ohmyfood.github.io#readme"
+}

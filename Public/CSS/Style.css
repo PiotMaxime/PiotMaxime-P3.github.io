@@ -1,0 +1,87 @@
+body {
+  display: grid;
+  grid-template-rows: 20% 200% 20%;
+  margin: unset;
+}
+
+header {
+  background-color: #00897B;
+  display: flex;
+  justify-content: center;
+}
+header h1 {
+  font-family: arial;
+  font-weight: bolder;
+  color: #FFCA28;
+}
+
+.Conteneur {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Conteneur__Menu {
+  display: grid;
+  grid-template-columns: 10% 37.5% 5% 37.5% 10%;
+  grid-template-rows: 20% 200% 20% 200% 20%;
+  text-align: center;
+}
+.Conteneur__Menu-Note {
+  grid-column: 2;
+  grid-row: 2;
+  box-shadow: 0px 0px 5px #616161;
+  width: 100%;
+  height: 100%;
+}
+.Conteneur__Menu-Chic {
+  grid-column: 4;
+  grid-row: 2;
+  box-shadow: 0px 0px 5px #616161;
+  width: 100%;
+  height: 100%;
+}
+.Conteneur__Menu-Delice {
+  grid-column: 2;
+  grid-row: 4;
+  box-shadow: 0px 0px 5px #616161;
+  width: 100%;
+  height: 100%;
+}
+.Conteneur__Menu-Palette {
+  grid-column: 4;
+  grid-row: 4;
+  box-shadow: 0px 0px 5px #616161;
+  width: 100%;
+  height: 100%;
+}
+
+.Conteneur__Proch {
+  display: flex;
+  justify-content: center;
+}
+.Conteneur__Proch h3 {
+  background-color: #00897B;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding: 1%;
+  border-radius: 10px;
+  color: #FFCA28;
+}
+
+footer {
+  background-color: #00897B;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+footer h4 {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #FFCA28;
+}
+
+/*# sourceMappingURL=Style.css.map */
