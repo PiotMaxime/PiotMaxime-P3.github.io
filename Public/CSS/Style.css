@@ -23,7 +23,7 @@ header h1 {
 
 .Conteneur__Menu {
   display: grid;
-  grid-template-columns: 10% 37.5% 5% 37.5% 10%;
+  grid-template-columns: 25% 350px 5% 350px 25%;
   grid-template-rows: 20% 200% 20% 200% 20%;
   text-align: center;
 }
