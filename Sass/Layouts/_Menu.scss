@@ -8,24 +8,28 @@
         justify-content: center;
         &-Note 
         {
+            font-family: "devonshire", sans-serif;
             @include Shadow-Post;
             @include Size-Post;
             @include Flex-Post;
         }
         &-Chic
         {
+            font-family: "croissantone", sans-serif;
             @include Shadow-Post;
             @include Size-Post;
             @include Flex-Post;
         }
         &-Delice 
         {
+            font-family: "dacingscript", sans-serif;
             @include Shadow-Post;
             @include Size-Post;
             @include Flex-Post;
         }
         &-Palette
         {
+            font-family: "kaushanscript", sans-serif;
             @include Shadow-Post;
             @include Size-Post;
             @include Flex-Post;

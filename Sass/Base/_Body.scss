@@ -1,10 +1,39 @@
+@font-face {
+    font-family: "croissantone";
+    src: url("Font/CroissantOne-Regular.ttf") format("ttf"),
+         url("Font/CroissantOne-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "devonshire";
+    src: url("Font/Devonshire-Regular.ttf") format("ttf"),
+         url("Font/Devonshire-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "dacingscript";
+    src: url("Font/DancingScript-Regular.ttf") format("ttf"),
+         url("Font/DancingScript-Regular.otf") format("otf"),
+         url("Font/DancingScript-Regular.vfb") format("vfb"),
+         url("Font/DancingScript-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "kaushanscript";
+    src: url("Font/KaushanScript-Regular.ttf") format("ttf"),
+         url("Font/KaushanScript-Regular.otf") format("otf"),
+         url("Font/KaushanScript-Regular.vfb") format("vfb"),
+         url("Font/KaushanScript-Regular.woff") format("woff");
+}
 body
     {
         display: flex;
         flex-direction: column;
         margin: unset;
+        height: 1400px;
         h6 
         {
             display: none;
         }
+    }
+.lienurl
+    {
+        @include href-build;
     }

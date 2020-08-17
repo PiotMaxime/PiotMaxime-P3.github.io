@@ -3,13 +3,21 @@ footer
         background-color: $color-primary;
         display: flex;
         justify-content: space-between;
-        padding-right: 2%;
-        padding-left: 2%;
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+        padding-left: 20px;
+        
         & h4
             {
             font-size: 2em;
             font-family: sans-serif;
             font-weight: lighter;
             color: $color-secondary;
+            margin-right: 40px;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            animation-iteration-count: infinite;
+            transform: rotate(5deg);            
             }
     }
