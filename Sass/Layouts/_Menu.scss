@@ -1,35 +1,33 @@
 .Conteneur__Menu
     {
         display: grid;
-        grid-template-columns: 25% 350px 5% 350px 25%;
-        grid-template-rows: 20% 200% 20% 200% 20%;
+        grid-template-columns: 350px 350px ;
+        grid-template-rows: 450px 450px;
+        grid-gap: 50px;
         text-align: center;
+        justify-content: center;
         &-Note 
         {
-            grid-column: 2;
-            grid-row: 2;
             @include Shadow-Post;
             @include Size-Post;
+            @include Flex-Post;
         }
         &-Chic
         {
-            grid-column: 4;
-            grid-row: 2;
             @include Shadow-Post;
             @include Size-Post;
+            @include Flex-Post;
         }
         &-Delice 
         {
-            grid-column: 2;
-            grid-row: 4;
             @include Shadow-Post;
             @include Size-Post;
+            @include Flex-Post;
         }
         &-Palette
         {
-            grid-column: 4;
-            grid-row: 4;
             @include Shadow-Post;
             @include Size-Post;
+            @include Flex-Post;
         }
     }
