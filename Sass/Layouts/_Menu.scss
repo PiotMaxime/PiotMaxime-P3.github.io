@@ -12,6 +12,29 @@
             @include Shadow-Post;
             @include Size-Post;
             @include Flex-Post;
+            background-color: $note-background;
+            @include Zoom-Post;
+            i {
+                background: linear-gradient(to right, $gradientstart-icone, $gradientend-icone);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size: 3em;
+                @include padmarg-bot;
+            }
+            h2, p {
+                color: $note-font;
+                font-weight: lighter;
+                @include padmarg-bot;
+                }
+            h2 {
+                font-size: 2.5em;
+                @include padmarg-top;
+                @include padmarg-bot;
+            }
+            p {
+                @include padmarg-top;
+                font-size: 4em;
+            }
         }
         &-Chic
         {
@@ -19,6 +42,23 @@
             @include Shadow-Post;
             @include Size-Post;
             @include Flex-Post;
+            background-color: $chic-background;
+            @include Zoom-Post;
+            h2, p {
+                font-weight: lighter;
+                }
+            h2 {
+                font-size: 1.8em;
+                @include padmarg-bot;
+                background: linear-gradient(165deg, $gradientstart-chic, $gradientend-chic 80%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            p {
+                @include padmarg-top;
+                color: $chic-font;
+                font-size: 3em;
+            }
         }
         &-Delice 
         {
@@ -26,6 +66,23 @@
             @include Shadow-Post;
             @include Size-Post;
             @include Flex-Post;
+            background-color: $delice-background;
+            @include Zoom-Post;
+            h2, p {
+                font-weight: lighter;
+                }
+            h2 {
+                font-size: 2em;
+                @include padmarg-bot;
+                background: linear-gradient(165deg, $gradientstart-delice, $gradientend-delice 80%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            p {
+                @include padmarg-top;
+                color: $delice-font;
+                font-size: 4em;
+            }
         }
         &-Palette
         {
@@ -33,5 +90,23 @@
             @include Shadow-Post;
             @include Size-Post;
             @include Flex-Post;
+            background-color: $palette-background;
+            @include Zoom-Post;
+            h2, p {
+                font-weight: lighter;
+                }
+            h2 {
+                font-size: 2em;
+                @include padmarg-bot;
+                background: linear-gradient(165deg, $gradientstart-palette, $gradientend-palette 80%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            p {
+                @include padmarg-top;
+                color: $palette-font;
+                font-size: 3.5em;
+            }
         }
     }
+    

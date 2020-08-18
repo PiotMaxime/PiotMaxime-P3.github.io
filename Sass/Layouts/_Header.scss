@@ -6,10 +6,10 @@ header
         align-items: center;
         height: 120px;
         margin-bottom: 50px;
-        & h1
-        {
-        font-family: arial;
-        font-weight: bolder;
-        color: $color-secondary;
+        & h1 {
+            font-size: 3em;
+            font-family: arial;
+            font-weight: bolder;
+            color: $color-secondary;
         }
     }

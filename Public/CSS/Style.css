@@ -38,6 +38,7 @@ header {
   margin-bottom: 50px;
 }
 header h1 {
+  font-size: 3em;
   font-family: arial;
   font-weight: bolder;
   color: #fdcb46;
@@ -59,43 +60,148 @@ header h1 {
 }
 .Conteneur__Menu-Note {
   font-family: "devonshire", sans-serif;
-  box-shadow: 0px 0px 5px #616161;
+  box-shadow: 0px 0px 15px #e0e0e0;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fcdfdb;
+  transform: scale(1);
+  transition: all 700ms;
+}
+.Conteneur__Menu-Note:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+.Conteneur__Menu-Note i {
+  background: linear-gradient(to right, #ef4760, #f6926a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.Conteneur__Menu-Note h2, .Conteneur__Menu-Note p {
+  color: #3d1319;
+  font-weight: lighter;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.Conteneur__Menu-Note h2 {
+  font-size: 2.5em;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.Conteneur__Menu-Note p {
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 4em;
 }
 .Conteneur__Menu-Chic {
   font-family: "croissantone", sans-serif;
-  box-shadow: 0px 0px 5px #616161;
+  box-shadow: 0px 0px 15px #e0e0e0;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fff5fe;
+  transform: scale(1);
+  transition: all 700ms;
+}
+.Conteneur__Menu-Chic:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+.Conteneur__Menu-Chic h2, .Conteneur__Menu-Chic p {
+  font-weight: lighter;
+}
+.Conteneur__Menu-Chic h2 {
+  font-size: 1.8em;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background: linear-gradient(165deg, #e38913, #8f5bfe 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Conteneur__Menu-Chic p {
+  padding-top: 0px;
+  margin-top: 0px;
+  color: #c77312;
+  font-size: 3em;
 }
 .Conteneur__Menu-Delice {
   font-family: "dacingscript", sans-serif;
-  box-shadow: 0px 0px 5px #616161;
+  box-shadow: 0px 0px 15px #e0e0e0;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #f9f9f9;
+  transform: scale(1);
+  transition: all 700ms;
+}
+.Conteneur__Menu-Delice:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+.Conteneur__Menu-Delice h2, .Conteneur__Menu-Delice p {
+  font-weight: lighter;
+}
+.Conteneur__Menu-Delice h2 {
+  font-size: 2em;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background: linear-gradient(165deg, #0020d8, #0889fb 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Conteneur__Menu-Delice p {
+  padding-top: 0px;
+  margin-top: 0px;
+  color: #0886fb;
+  font-size: 4em;
 }
 .Conteneur__Menu-Palette {
   font-family: "kaushanscript", sans-serif;
-  box-shadow: 0px 0px 5px #616161;
+  box-shadow: 0px 0px 15px #e0e0e0;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fdfffd;
+  transform: scale(1);
+  transition: all 700ms;
+}
+.Conteneur__Menu-Palette:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+.Conteneur__Menu-Palette h2, .Conteneur__Menu-Palette p {
+  font-weight: lighter;
+}
+.Conteneur__Menu-Palette h2 {
+  font-size: 2em;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background: linear-gradient(165deg, #3d923a, #bfff7f 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Conteneur__Menu-Palette p {
+  padding-top: 0px;
+  margin-top: 0px;
+  color: #72bf56;
+  font-size: 3.5em;
 }
 
 .Proch {
@@ -129,8 +235,39 @@ footer h4 {
   margin-right: 40px;
   margin-top: 10%;
   margin-bottom: 10%;
+  transform: rotate(0deg);
+  animation-name: rotation;
+  animation-duration: 800ms;
   animation-iteration-count: infinite;
-  transform: rotate(5deg);
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  12.5% {
+    transform: rotate(5deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  35.5% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  62.5% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  87.5% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 /*# sourceMappingURL=Style.css.map */
