@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "croissantone";
   src: url("Font/CroissantOne-Regular.ttf") format("ttf"), url("Font/CroissantOne-Regular.woff") format("woff");
@@ -269,6 +270,47 @@ footer h4 {
   100% {
     transform: rotate(0deg);
   }
+}
+
+.Page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Page h2 {
+  font-family: Arial;
+  font-size: 3em;
+}
+
+.Page__Menu {
+  background-color: #fcdfdb;
+  width: 800px;
+  margin-bottom: 10%;
+}
+.Page__Menu .TêteMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
+.Page__Menu .PiedMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Page__Menu-Liste div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Page__Menu-Liste li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0px -20px;
 }
 
 /*# sourceMappingURL=Style.css.map */
