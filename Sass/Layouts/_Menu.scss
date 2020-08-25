@@ -33,7 +33,9 @@
             }
             p {
                 @include padmarg-top;
-                font-size: 4em;
+                font-size: 3em;
+                font-family: "segoeprint", sans-serif;
+                font-weight: bold;
             }
         }
         &-Chic
@@ -58,6 +60,8 @@
                 @include padmarg-top;
                 color: $chic-font;
                 font-size: 3em;
+                font-family: none;
+                font-weight: bold;
             }
         }
         &-Delice 
@@ -72,6 +76,7 @@
                 font-weight: lighter;
                 }
             h2 {
+                width: 103%;
                 font-size: 2em;
                 @include padmarg-bot;
                 background: linear-gradient(165deg, $gradientstart-delice, $gradientend-delice 80%);
@@ -81,7 +86,8 @@
             p {
                 @include padmarg-top;
                 color: $delice-font;
-                font-size: 4em;
+                font-size: 3em;
+                font-family: "segoeprint", sans-serif;
             }
         }
         &-Palette
@@ -105,7 +111,8 @@
             p {
                 @include padmarg-top;
                 color: $palette-font;
-                font-size: 3.5em;
+                font-size: 3em;
+                font-family: "segoeprint", sans-serif;
             }
         }
     }

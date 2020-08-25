@@ -1,0 +1,166 @@
+.Note
+{
+    background-color: $note-background;
+    padding-bottom: 3%;
+    color: $note-font;
+    h2 
+    {
+        font-family: "devonshire", sans-serif;
+        font-size: 3em;
+        font-weight: lighter;
+        @include padmarg-top;
+    }
+    h3
+    {
+        font-size: 1.5em;
+    }
+    ul 
+    {
+        font-size: 1.1em;
+    }
+    .TêteMenu i {
+        background: linear-gradient(to right, $gradientstart-icone, $gradientend-icone);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 4.5em;
+        @include padmarg-bot;
+    }
+    .PiedMenu h4 {
+        font-family: "devonshire", sans-serif;
+        font-weight: lighter;
+        font-size: 2.5em;
+    }
+    .PiedMenu i {
+        background: linear-gradient(to right, $gradientstart-icone, $gradientend-icone);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3em;
+    }
+    h3:hover
+        {
+                &::after {
+                background-color: $note-font;
+            }
+        }
+      @include Souligne;
+}
+.Chic
+{
+    background-color: $chic-background;
+    font-family: none;
+    padding-bottom: 5%;
+    h2 
+    {
+        font-family: "croissantone", sans-serif;
+        font-weight: lighter;
+        font-size: 2em;
+        background: linear-gradient(165deg, $gradientstart-chic, $gradientend-chic 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    li 
+    {
+        font-size: 1.1em;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .Chic__Liste1
+    {
+        color: #c67512;
+        h3:hover
+            {
+                    &::after {
+                    background-color: #c67512;
+                }
+            }
+        @include Souligne;
+    }
+    .Chic__Liste2
+    {
+        color: #a56799;
+        h3:hover
+            {
+                    &::after {
+                    background-color: #a56799;
+                }
+            }
+        @include Souligne;
+    }
+    .Chic__Liste3
+    {
+        color: #6e4ccc;
+        h3:hover
+            {
+                    &::after {
+                    background-color: #6e4ccc;
+                }
+            }
+        @include Souligne;
+    }
+}
+.Delice
+{
+    padding-bottom: 5%;
+    h2 
+    {
+        width: 100%;
+        font-family: "dacingscript", sans-serif;
+        font-weight: lighter;
+        font-size: 4em;
+        background: linear-gradient(165deg, $gradientstart-delice, $gradientend-delice 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h3 
+    {
+        font-weight: lighter;
+        font-size: 1.1em;
+    }
+    li 
+    {
+        font-size: 0.9em;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    background-color: #edefef;
+    h3:hover
+        {
+                &::after {
+                background-color: black;
+            }
+        }
+    @include Souligne;
+}
+.Palette
+{
+    padding-bottom: 5%;
+    h2 
+    {
+        width: 100%;
+        font-family: "kaushanscript", sans-serif;
+        font-weight: lighter;
+        font-size: 4em;
+        background: linear-gradient(165deg, $gradientstart-palette, $gradientend-palette 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h3 
+    {
+        font-weight: lighter;
+        font-size: 1.1em;
+    }
+    li 
+    {
+        font-size: 0.9em;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    background-color: $palette-background;
+    h3:hover
+        {
+                &::after {
+                background-color: $palette-font;
+            }
+        }
+    @include Souligne;
+}

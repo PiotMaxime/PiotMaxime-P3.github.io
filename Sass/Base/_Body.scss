@@ -22,12 +22,24 @@
          url("Font/KaushanScript-Regular.vfb") format("vfb"),
          url("Font/KaushanScript-Regular.woff") format("woff");
 }
+@font-face {
+    font-family: "segoeprint";
+    src: url("Font/SegoePrint.ttf") format("ttf"),
+         url("Font/SegoePrint.otf") format("otf"),
+         url("Font/SegoePrint.woff") format("woff");
+}
 body
     {
         display: flex;
         flex-direction: column;
         margin: unset;
         height: 1400px;
+        h5
+        {
+            display: flex;
+            justify-content: center;
+            font-size: 3em;
+        }
         h6 
         {
             display: none;
