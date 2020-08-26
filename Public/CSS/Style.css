@@ -322,10 +322,20 @@ footer h4 {
   justify-content: space-between;
   align-items: center;
   padding: 0% 5% 0% 5%;
+  height: 100px;
+}
+.Page__Menu-Liste div h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .Page__Menu-Liste div img {
   width: 35%;
   height: 35%;
+}
+.Page__Menu-Liste h4::after {
+  content: " ";
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .Page__Menu-Liste li {
   list-style: none;
@@ -562,6 +572,10 @@ footer h4 {
 }
 
 @media all and (max-width: 800px) {
+  body {
+    height: 2350px;
+  }
+
   .Conteneur__Menu {
     display: grid;
     grid-template-columns: 350px;

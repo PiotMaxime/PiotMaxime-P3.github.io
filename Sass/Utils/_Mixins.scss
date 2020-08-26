@@ -35,10 +35,10 @@
     h3:hover
         {
                 &::after {
-                content:" ";
+                content: " ";
                 display: flex;
                 flex-direction: column;
-                width: 100%;
+                width: 100%;                
                 height: 3px;
                 animation: Soulignement 400ms linear;
                 @keyframes Soulignement {
