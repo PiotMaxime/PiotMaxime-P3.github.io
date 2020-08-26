@@ -1,0 +1,150 @@
+@media all and (max-width: 800px)
+{
+    .Conteneur__Menu
+    {
+        display: grid;
+        grid-template-columns: 350px ;
+        grid-template-rows: 450px 450px 450px 450px;
+        grid-gap: 50px;
+    }
+    footer h4 
+    {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .Note 
+    {
+        .TeteMenu i
+        {
+            font-size: 3em;
+        }
+        h2 
+        {
+            font-size: 2.5em;
+        }
+        h3 
+        {
+            font-size: 1.3em;
+        }
+        p 
+        {
+            font-size: 0.7em;
+        }
+        .Note__Liste
+        {
+            img
+            {
+                width: 25%;
+                height: 25%;
+            }
+        }
+        .PiedMenu i
+        {
+            font-size: 2em;
+        }
+        .PiedMenu h4 
+        {
+            font-size: 2.2em;
+        }
+    }
+    .Chic
+    {
+        h2 
+        {
+            font-size: 1.8em;
+        }
+        h3 
+        {
+            font-size: 1.1em;
+        }
+        li 
+        {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        p 
+        {
+            font-size: 0.8em;
+        }
+        .Chic__Liste1
+        {
+            img
+            {
+                width: 25%;
+                height: 25%;
+            }
+        }
+        .Chic__Liste2
+        {
+            img
+            {
+                width: 25%;
+                height: 25%;
+            }
+        }
+        .Chic__Liste3
+        {
+            img
+            {
+                width: 25%;
+                height: 25%;
+            }
+        }
+    }
+    .Delice
+    {
+        h2 
+        {
+            font-size: 2.5em;
+        }
+        h3 
+        {
+            font-size: 1.1em;
+        }
+        li 
+        {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        p 
+        {
+            font-size: 0.9em;
+        }
+        .Delice__Liste
+        {
+            img
+            {
+                width: 25%;
+                height: 25%;
+            }
+        }
+    }
+    .Palette
+    {
+        h2 
+        {
+            font-size: 2.5em;
+        }
+        h3 
+        {
+            font-size: 1.1em;
+        }
+        li 
+        {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        p 
+        {
+            font-size: 0.9em;
+        }
+        .Palette__Liste
+        {
+            img
+            {
+                width: 25%;
+                height: 25%;
+            }
+        }
+    }
+}
