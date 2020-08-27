@@ -234,6 +234,9 @@ header h1 {
   border-radius: 10px;
   color: #fdcb46;
 }
+.Proch h3:hover {
+  cursor: text;
+}
 .Proch span {
   visibility: hidden;
   animation: visible steps(1);

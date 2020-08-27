@@ -12,6 +12,10 @@
             padding: 1%;
             border-radius: 10px;
             color: $color-secondary;
+            &:hover
+                {
+                    cursor: text;
+                }
             }
         span 
         {
