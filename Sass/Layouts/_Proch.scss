@@ -13,4 +13,36 @@
             border-radius: 10px;
             color: $color-secondary;
             }
+        span 
+        {
+            visibility: hidden;
+            animation: visible steps(1);
+            animation-iteration-count: infinite;
+            @keyframes visible {
+                50% {
+                    visibility: visible;
+                }
+            }
+        }
+        .Suspension-1
+        {
+            -webkit-animation-delay: 600ms;
+            animation-delay: 600ms;
+            -webkit-animation-duration: 1.2s;
+            animation-duration: 1.2s;
+        }
+        .Suspension-2
+        {
+            -webkit-animation-delay: 800ms;
+            animation-delay: 800ms;
+            -webkit-animation-duration: 1.2s;
+            animation-duration: 1.2s;
+        }
+        .Suspension-3
+        {
+            -webkit-animation-delay: 1000ms;
+            animation-delay: 1000ms;
+            -webkit-animation-duration: 1.2s;
+            animation-duration: 1.2s;
+        }
     }
